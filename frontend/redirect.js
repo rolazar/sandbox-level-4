@@ -8,7 +8,7 @@
  * Use Redirect.js to redirect to the path where the 404 occured.
  **************************************************************/
 
-const rootPath = "/";
+const rootPath = "/sandbox-level-4";
 const path = window.location.pathname;
 window.localStorage.setItem("redirect", path);
 window.location.replace(rootPath);
