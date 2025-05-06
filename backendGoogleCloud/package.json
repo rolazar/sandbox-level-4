@@ -8,8 +8,8 @@
     "------": "------------------------------------------------",
     "build-production": "npx webpack --mode=production",
     "open-live": "npx open-cli https://sandbox-level-4-rolazaraberin.wl.r.appspot.com",
-    "open-tab": "npx open-cli http://localhost:8000",
-    "close-port": "npx kill-port 8000",
+    "open-tab": "npx open-cli http://localhost:9000",
+    "close-port": "npx kill-port 9000",
     "start-server": "npx nodemon ./dist/main.js",
     "start-build": "npx webpack --watch"
   },
