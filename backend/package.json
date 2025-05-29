@@ -2,8 +2,9 @@
   "scripts": {
     "start": "npm run close-port && npm run start-server",
     "start2": "npm run open-tab && npm run start-build",
-    "test": "npx jest --watch readAccount",
-    "deploy": "npm run build-production && npm run upload-zip",
+    "build": "npm run build-production",
+    "test": "npx jest --watch createAccount",
+    "deploy": "npm run upload-zip",
     "------": "------------------------------------------------",
     "build-production": "npx webpack --mode=production",
     "open-tab": "npx open-cli http://localhost:8000",
